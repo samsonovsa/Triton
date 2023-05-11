@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Triton.Application\Triton.Application.csproj" />
+  </ItemGroup>
+
 </Project>

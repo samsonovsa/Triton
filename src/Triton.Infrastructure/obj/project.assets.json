@@ -52,11 +52,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PROJECTS\\CSHARP\\2_LEARN\\OTUS\\Triton\\triton\\src\\Triton.Infrastructure\\Triton.Infrastructure.csproj",
+      "projectUniqueName": "D:\\PROJECTS\\CSHARP\\2_LEARN\\OTUS\\Triton\\src\\Triton.Infrastructure\\Triton.Infrastructure.csproj",
       "projectName": "Triton.Infrastructure",
-      "projectPath": "D:\\PROJECTS\\CSHARP\\2_LEARN\\OTUS\\Triton\\triton\\src\\Triton.Infrastructure\\Triton.Infrastructure.csproj",
+      "projectPath": "D:\\PROJECTS\\CSHARP\\2_LEARN\\OTUS\\Triton\\src\\Triton.Infrastructure\\Triton.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\samso\\.nuget\\packages\\",
-      "outputPath": "D:\\PROJECTS\\CSHARP\\2_LEARN\\OTUS\\Triton\\triton\\src\\Triton.Infrastructure\\obj\\",
+      "outputPath": "D:\\PROJECTS\\CSHARP\\2_LEARN\\OTUS\\Triton\\src\\Triton.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -80,8 +80,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\PROJECTS\\CSHARP\\2_LEARN\\OTUS\\Triton\\triton\\src\\Triton.Application\\Triton.Application.csproj": {
-              "projectPath": "D:\\PROJECTS\\CSHARP\\2_LEARN\\OTUS\\Triton\\triton\\src\\Triton.Application\\Triton.Application.csproj"
+            "D:\\PROJECTS\\CSHARP\\2_LEARN\\OTUS\\Triton\\src\\Triton.Application\\Triton.Application.csproj": {
+              "projectPath": "D:\\PROJECTS\\CSHARP\\2_LEARN\\OTUS\\Triton\\src\\Triton.Application\\Triton.Application.csproj"
             }
           }
         }

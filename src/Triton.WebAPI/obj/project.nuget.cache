@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "e2Pb761b5UM5jIV01FzF7Xh1sxSpIbjUMdmCq9ORDmS27kfMsfG3qcRSVIXbdg48MuGjK8NHKBiWgg92QQx/jw==",
+  "dgSpecHash": "0k/AV6doZdxwVQTaUqQh5R9FiXbmBKlq6jTtgNa30jqTY5l4b7X6RyWydxEuz5DYBV7IybfGvDIM+OQ95tb1Zw==",
   "success": true,
-  "projectFilePath": "D:\\PROJECTS\\CSHARP\\2_LEARN\\OTUS\\Triton\\triton\\src\\Triton.WebAPI\\Triton.WebAPI.csproj",
+  "projectFilePath": "D:\\PROJECTS\\CSHARP\\2_LEARN\\OTUS\\Triton\\src\\Triton.WebAPI\\Triton.WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\samso\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\samso\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
