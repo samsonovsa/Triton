@@ -10,4 +10,9 @@
     <ProjectReference Include="..\Triton.Application\Triton.Application.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="DataProviders\" />
+    <Folder Include="UseCases\Products\" />
+  </ItemGroup>
+
 </Project>
