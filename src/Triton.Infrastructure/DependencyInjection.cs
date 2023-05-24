@@ -1,12 +1,16 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using Triton.Application.UseCases.Address;
+using Triton.Application.UseCases.Customer;
 using Triton.Infrastructure.DataProviders;
+using Triton.Infrastructure.UseCases.Address;
+using Triton.Infrastructure.UseCases.Customer;
 
 namespace Triton.Infrastructure
 {
-    public static class EntityFrameworkInstaller
+    public static class DependencyInjection
     {
-        public static IServiceCollection ConfigureContext(this IServiceCollection services,
+        public static IServiceCollection AddInfrastructure(this IServiceCollection services,
             string connectionString)
         {
             services.AddDbContext<ApplicationDbContext>(optionsBuilder
@@ -19,7 +23,17 @@ namespace Triton.Infrastructure
             services.AddHealthChecks()
                 .AddDbContextCheck<ApplicationDbContext>();
 
+            services.InstallRepositories();
+
             return services;
+        }
+
+        private static IServiceCollection InstallRepositories(this IServiceCollection serviceCollection)
+        {
+            serviceCollection
+                .AddTransient<ICustomerRepository, CustomerRepository>()
+                .AddTransient<IAddressRepository, AddressRepository>();
+            return serviceCollection;
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Triton.Application.Common.Repositories;
 using Triton.Domain;
 
 namespace Triton.Infrastructure.UseCases.Common

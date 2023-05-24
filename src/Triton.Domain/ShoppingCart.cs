@@ -1,8 +1,8 @@
 ﻿namespace Triton.Domain
 {
-    public class ShoppingCart
+    public class ShoppingCart : IEntity<int>
     {
-        public int ShoppingCartId { get; set; }
+        public int Id { get; set; }
         public int CustomerId { get; set; }
         public ICollection<ShoppingCartItem> ShoppingCartItems { get; set; }
 

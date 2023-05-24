@@ -1,6 +1,6 @@
 ﻿using Triton.Domain;
 
-namespace Triton.Infrastructure.UseCases.Common
+namespace Triton.Application.Common.Repositories
 {
     /// <summary>
     /// Интерфейс репозитория, предназначенного для чтения
