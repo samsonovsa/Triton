@@ -9,11 +9,10 @@ namespace Triton.WebAPI
         public static IServiceCollection AddServices(this IServiceCollection services,
             IConfiguration configuration)
         {
-            var applicationSettings = configuration.Get<ApplicationSettings>();
-            services.AddSingleton(applicationSettings);
+            var connectionString = configuration.GetConnectionString("Triton");
+           // services.AddSingleton(applicationSettings);
             return services.AddSingleton((IConfigurationRoot)configuration)
-                //.InstallServices()
-                .AddInfrastructure(applicationSettings.ConnectionString)
+                .AddInfrastructure(connectionString)
                 .AddWebApi()
                 .AddApplication();
         }
