@@ -21,7 +21,7 @@ namespace Triton.WebAPI.UseCases.Address
         [SwaggerResponse(200, "", typeof(AddressViewModel))]
         [SwaggerResponse((int)HttpStatusCode.NotFound, "Not Fond")]
         [SwaggerResponse((int)HttpStatusCode.BadRequest, "Bad Request")]
-        public async Task<IActionResult> GetAdressById(int id)
+        public async Task<IActionResult> Adress(int id)
         {
             AddressViewModel output = await _service.GetAdressById(id);
 

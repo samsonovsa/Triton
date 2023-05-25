@@ -21,7 +21,7 @@ namespace Triton.WebAPI.UseCases.Customer
         [SwaggerResponse(200, "", typeof(CustomersOutput))]
         [SwaggerResponse((int)HttpStatusCode.NotFound, "Not Fond")]
         [SwaggerResponse((int)HttpStatusCode.BadRequest, "Bad Request")]
-        public async Task<IActionResult> GetCustomers()
+        public async Task<IActionResult> Customers()
         {
             CustomersOutput output = await _mediator.Send(new CustomersQuery());
 
