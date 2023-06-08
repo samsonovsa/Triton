@@ -364,3 +364,7 @@ FodyWeavers.xsd
 
 # data
 postgres_data/
+rabbitmq_data/
+
+# addition files
+/build/docker_run.ps1
