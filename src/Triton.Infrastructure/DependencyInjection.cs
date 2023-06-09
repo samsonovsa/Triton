@@ -3,6 +3,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Triton.Application.UseCases.Address;
 using Triton.Application.UseCases.Customer;
 using Triton.Infrastructure.DataProviders;
+using Triton.Infrastructure.DataProviders.EF;
 using Triton.Infrastructure.UseCases.Address;
 using Triton.Infrastructure.UseCases.Customer;
 

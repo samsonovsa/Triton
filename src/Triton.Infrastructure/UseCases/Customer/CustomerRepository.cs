@@ -1,5 +1,5 @@
 ﻿using Triton.Application.UseCases.Customer;
-using Triton.Infrastructure.DataProviders;
+using Triton.Infrastructure.DataProviders.EF;
 using Triton.Infrastructure.UseCases.Common;
 
 namespace Triton.Infrastructure.UseCases.Customer

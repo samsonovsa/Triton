@@ -1,5 +1,5 @@
 ﻿using Triton.Application.UseCases.Address;
-using Triton.Infrastructure.DataProviders;
+using Triton.Infrastructure.DataProviders.EF;
 using Triton.Infrastructure.UseCases.Common;
 
 

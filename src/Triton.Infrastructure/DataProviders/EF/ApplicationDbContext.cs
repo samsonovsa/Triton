@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Triton.Domain;
 
-namespace Triton.Infrastructure.DataProviders
+namespace Triton.Infrastructure.DataProviders.EF
 {
     public class ApplicationDbContext : DbContext, IApplicationDbContext
     {
